@@ -22,6 +22,7 @@ public class FunctionStudentExa {
 
     public static void main(String[] args) {
         System.out.println(studentFunction.apply(StudentDataBase.getAllStudents()));
+        System.out.println(studentFunction.apply(StudentDataBase.getAllStudents()));
 
     }
 }
