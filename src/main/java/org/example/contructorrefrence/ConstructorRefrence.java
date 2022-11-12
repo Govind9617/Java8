@@ -6,11 +6,11 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class ConstructorRefrence {
+    static Supplier<Student> studentSupplie1=Student::new;
 
-    static Supplier<Student> studentSupplier=Student::new;
     static Function<String,Student> studentFunction=Student::new;
     public static void main(String[] args) {
-    System.out.println(studentSupplier.get());
+    System.out.println(studentSupplier1.get());
         System.out.println(studentFunction.apply("java"));
     }
 }
