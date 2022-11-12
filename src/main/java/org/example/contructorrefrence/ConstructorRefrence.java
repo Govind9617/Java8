@@ -10,7 +10,7 @@ public class ConstructorRefrence {
 
     static Function<String,Student> studentFunction=Student::new;
     public static void main(String[] args) {
-    System.out.println(studentSupplier1.get());
+    System.out.println(studentSupplie1.get());
         System.out.println(studentFunction.apply("java"));
     }
 }
