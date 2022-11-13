@@ -30,8 +30,7 @@ public class ParallelOne {
     public static void main(String[] args) {
         sequencilyPrintStudentActivity();
         paralleyPrintStudentActivity();
-        sequencilyPrintStudentActivity();
-        paralleyPrintStudentActivity();
+
 
 
 
