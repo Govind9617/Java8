@@ -12,7 +12,7 @@ public class LocalDateExample {
         System.out.println(localDate1);
         LocalDate localDate2=LocalDate.ofYearDay(2020,77);
         System.out.println(localDate2);
-        System.out.println("check "+ localDate.getEra());
+        System.out.println("check "+ localDate.plusWeeks(8));
 
     }
 }
